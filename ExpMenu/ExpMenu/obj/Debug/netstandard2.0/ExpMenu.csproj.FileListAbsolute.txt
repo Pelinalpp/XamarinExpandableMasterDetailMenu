@@ -1,0 +1,16 @@
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\bin\Debug\netstandard2.0\ExpMenu.deps.json
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\bin\Debug\netstandard2.0\ExpMenu.dll
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\bin\Debug\netstandard2.0\ExpMenu.pdb
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.csprojResolveAssemblyReference.cache
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.csproj.CoreCompileInputs.cache
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.App.xaml.g.cs
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.Views.MainPage.xaml.g.cs
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.Views.MasterDetail.xaml.g.cs
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.Views.MasterPage.xaml.g.cs
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.AssemblyInfoInputs.cache
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.AssemblyInfo.cs
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.dll
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.pdb
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.Views.FourthPage.xaml.g.cs
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.Views.SecondPage.xaml.g.cs
+C:\Users\PelinAlp\Desktop\XAMARIN\ExpMenu\ExpMenu\ExpMenu\obj\Debug\netstandard2.0\ExpMenu.Views.ThirdPage.xaml.g.cs

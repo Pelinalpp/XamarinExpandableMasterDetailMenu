@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExpMenu.Views.MasterPage"
+             x:Name="TheMasterPage"
+             xmlns:customControls="clr-namespace:ExpMenu.Custom;assembly=ExpMenu"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             Title="Master Page"
+             BackgroundColor="#0e4696">
+    <ContentPage.Content>
+        <StackLayout x:Name="MasterStack" VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="TopStack">
+                <Image x:Name="LoginIcon" HeightRequest="70" Source="logo_icon" Margin="0,30,0,10" />
+            </StackLayout>
+            <StackLayout x:Name="MidStack" VerticalOptions="FillAndExpand" Padding="30,0,0,0">
+
+                <ListView IsGroupingEnabled="True" SeparatorVisibility="None" Margin="0,30,0,0" ItemsSource="{Binding Categories}" BackgroundColor="#0e4696">
+                    <ListView.GroupHeaderTemplate>
+                        <DataTemplate>
+
+                            <customControls:ExtendedViewCell SelectedBackgroundColor="#0e4696">
+                                <ViewCell.View>
+                                    <StackLayout>
+                                        <Label Text="{Binding Key.Category.CategoryTitle}" VerticalOptions="Center" TextColor="White"/>
+                                        <ContentView.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Source={x:Reference TheMasterPage}, Path=BindingContext.HeaderSelectedCommand}" CommandParameter="{Binding .}"/>
+                                        </ContentView.GestureRecognizers>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </customControls:ExtendedViewCell>
+
+                        </DataTemplate>
+                    </ListView.GroupHeaderTemplate>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <customControls:CustomTextCell SelectedBackgroundColor="#0e4696" TargetType="{Binding ItemTargetType}"  Text="{Binding ItemTitle}" TextColor="White" Tapped="Item_Clicked" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </StackLayout>
+            <StackLayout x:Name="ButtomStack" VerticalOptions="EndAndExpand">
+                <Button Text="Çıkış Yap" BackgroundColor="Transparent" TextColor="White" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
